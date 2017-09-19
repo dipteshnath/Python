@@ -12,8 +12,8 @@
 import requests
 from getpass import getpass
 import json
-username='dipteshnath@gmail.com'
-password='Google@5654'
+username='######'
+password='###'
 url = 'https://api.github.com/authorizations'
 note = 'Mining GitHub'
 post_data={'scopes':['repo'],'note':note}
@@ -30,7 +30,7 @@ print("Your OAuth token is", response.json()['token'])
 
 
 from github import Github
-ACCESS_TOKEN = 'a7fcdb93177c4bdb70429ae9971f2e0f7c875b2b'#'26d46b82678151d41e5ec2a68a8e26e2c1a348fd'
+ACCESS_TOKEN = '#####'#'26d46b8151d41e5ec2a68a8e26e2c1a348fd'
 
 USER = 'Raynos' # User Name
 REPO = 'mercury'# Repository name
